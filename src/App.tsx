@@ -25,6 +25,13 @@ const App = () => {
                 </div>
                 <div>
                     my posts
+                    <div>
+                        new posts
+                    </div>
+                </div>
+                <div>
+                    <div>Post1</div>
+                    <div>Post2</div>
                 </div>
             </div>
         </div>

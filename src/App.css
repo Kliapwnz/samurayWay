@@ -16,7 +16,7 @@
   background-color: chocolate;
 }
 .header img {
-  width: 20px;
+  width: 60px;
 }
 .nav {
   grid-area: n;
