@@ -5,7 +5,14 @@ const App = () => {
     return (
         <>
             <Header/>
-            <div className="App">
+            <Technologies/>
+        </>
+
+    );
+}
+
+const Technologies = () =>{
+    return (<div>
             <ul>
                 <li>css</li>
                 <li>html</li>
@@ -13,17 +20,15 @@ const App = () => {
                 <li>react</li>
             </ul>
         </div>
-        </>
 
-    );
+    )
 }
-
 const Header = () => {
     return (
         <div>
-            <a>Home</a>
-            <a>News Feed</a>
-            <a>Messages</a>
+            <a href="#s">Home</a>
+            <a href="#s">News Feed</a>
+            <a href="#s">Messages</a>
         </div>
     );
 }
