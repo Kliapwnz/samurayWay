@@ -3,7 +3,9 @@ import './App.css';
 
 const App = () => {
     return (
-        <div className="App">
+        <>
+            <Header/>
+            <div className="App">
             <ul>
                 <li>css</li>
                 <li>html</li>
@@ -11,6 +13,8 @@ const App = () => {
                 <li>react</li>
             </ul>
         </div>
+        </>
+
     );
 }
 
