@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
+import {Header} from "./components/Header";
 
 const App = () => {
     return (
         <div className="app-wrapper">
-            <header className="header">
-                <img
-                    src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e"/>
-            </header>
+           <Header/>
             <nav className="nav">
                 <div><a>Profile</a></div>
                 <div><a>Messages</a></div>
