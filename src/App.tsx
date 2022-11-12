@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import {Header} from "./components/Header";
-import {Nav} from "./components/Nav";
+import {Navbar} from "./components/Navbar";
 
 const App = () => {
     return (
         <div className="app-wrapper">
             <Header/>
-            <Nav/>
+            <Navbar/>
             <div className="content">
                 <div>
                     <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
