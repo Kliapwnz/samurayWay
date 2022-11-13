@@ -1,5 +1,6 @@
 import w from "./MyPosts.module.css";
 import React from "react";
+import {Post} from "./Post/Post";
 
 export const MyPosts = () => {
     return (
@@ -7,10 +8,11 @@ export const MyPosts = () => {
             <div>
                 my posts
                 <div>
-                    new posts
+                    <textarea></textarea>
+                    <button>Add Post</button>
                 </div>
             </div>
-
+            <Post/>
         </div>
     )
 }
