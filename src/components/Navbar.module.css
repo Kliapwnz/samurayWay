@@ -2,3 +2,7 @@
     grid-area: n;
     background-color: darksalmon;
 }
+
+.item {
+    color: white;
+}
