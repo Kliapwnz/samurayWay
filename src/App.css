@@ -14,7 +14,7 @@
 
 .header {
     grid-area: h;
-    background-color: chocolate;
+    background-color: #009688;
 }
 
 .header img {
@@ -23,10 +23,10 @@
 
 .nav {
     grid-area: n;
-    background-color: aqua;
+    background-color: darksalmon;
 }
 
 .content {
     grid-area: c;
-    background-color: darkgrey;
+    background-color: coral;
 }
