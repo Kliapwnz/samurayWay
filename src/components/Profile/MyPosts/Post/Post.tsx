@@ -1,4 +1,4 @@
-import w from "../MyPosts.module.css";
+import w from "./Post.module.css";
 import React from "react";
 
 export const Post = () => {
