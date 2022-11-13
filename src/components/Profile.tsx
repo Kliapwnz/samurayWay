@@ -1,9 +1,9 @@
 import React from "react";
-import "./Profile.css"
+import w from "./Profile.module.css"
 
 export const Profile = () => {
     return (
-        <div className="content">
+        <div className={w.content}>
             <div>
                 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
             </div>
@@ -17,8 +17,8 @@ export const Profile = () => {
                 </div>
             </div>
             <div>
-                <div>Post1</div>
-                <div>Post2</div>
+                <div className={w.item}>Post1</div>
+                <div className={w.item}>Post2</div>
             </div>
         </div>
     )
