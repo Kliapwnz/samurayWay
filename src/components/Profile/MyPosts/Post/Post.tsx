@@ -3,6 +3,7 @@ import React from "react";
 
 type postMessageType= {
     message: string
+    likeCounts: number
 }
 
 export const Post = (props:postMessageType) => {
@@ -11,7 +12,7 @@ export const Post = (props:postMessageType) => {
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"/>
             {props.message}
             <div>
-                <span>Like</span>
+                <span>{props.likeCounts}</span>
             </div>
         </div>
     )
